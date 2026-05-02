@@ -296,7 +296,7 @@ body > .skiptranslate { height:0!important; overflow:hidden!important; position:
   .page-header { padding:6rem 5% 3rem; }
   .page-header h1 { font-size:1.8rem; }
   /* Make chatbot fullscreen on very small mobile devices to prevent cutoff */
-  .chatbot-window { right:0; bottom:0; width:100%; height:100vh; max-height:100vh; border-radius:0; z-index:99999; }
+  .chatbot-window { right:0; top:0; bottom:0; width:100%; height:auto; max-height:100%; border-radius:0; z-index:99999; }
   .chatbot-toggle { bottom:20px; right:20px; }
   .product-btn { width: 100%; }
   /* Fix Language picker dropdown cutoff */
